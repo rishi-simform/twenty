@@ -39,7 +39,7 @@ export const WorkspaceInviteLink = ({
         accent="blue"
         title="Copy link"
         onClick={() => {
-          enqueueSnackBar('Link copied to clipboard', {
+          enqueueSnackBar('Link copied to the clipboard', {
             variant: 'success',
             icon: <IconCopy size={theme.icon.size.md} />,
             duration: 2000,
